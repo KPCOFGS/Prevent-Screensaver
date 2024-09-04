@@ -6,8 +6,15 @@ This Python script prevents the screensaver from activating by periodically movi
 - Python 3.x
 - `pynput` library
 
-## Usage
+## Installation
 
+First clone the repository and install needed packages:
+```
+git clone
+cd 
+pip install -r requirements.txt
+```
+## Usage
 To run the script, use the following command:
 ```bash
 python prevent_screensaver.py <interval>
