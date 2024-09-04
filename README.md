@@ -1,4 +1,4 @@
-# Prevent-Screensaver
+# Prevent Screensaver
 
 This Python script prevents the screensaver from activating by periodically moving the mouse. It uses the `pynput` library to simulate mouse movements and `argparse` to allow customization of the interval between movements.
 
@@ -10,9 +10,9 @@ This Python script prevents the screensaver from activating by periodically movi
 
 First clone the repository and install needed packages:
 ```
-git clone
-cd 
-pip install -r requirements.txt
+git clone https://github.com/KPCOFGS/Prevent-Screensaver.git
+cd Prevent-Screensaver
+python -m pip install -r requirements.txt
 ```
 ## Usage
 To run the script, use the following command:
